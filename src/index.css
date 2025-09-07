@@ -88,17 +88,17 @@ body::before {
     position: relative;
     top: 2px; /* Slight lift to simulate tab sticking out */
 }
-.scp-link:hover {
+a:hover {
     background-color: #f0c66a; /* Lighter hover color */
     transform: translateY(-3px); /* More pronounced lift */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
-.scp-link:active {
+a:active {
     transform: translateY(0);
     box-shadow: none;
 }
 /* Active tab styling (for current page) */
-.scp-link.active {
+a.active {
     background-color: #fff; /* Match body background */
     color: #8b0000; /* Red for emphasis */
     transform: translateY(0); /* Flush with content */
