@@ -21,7 +21,7 @@ function ScpPage({ scpData }) {
             {scp.image && (
                 <>
                     <h3>Image</h3>
-                    <img src={scp.image} alt={scp.name} style={{ maxWidth: '100%' }} />
+                    <img src={`${import.meta.env.BASE_URL}${scp.image}`} alt={scp.name} />
                 </>
             )}
             <h3>Description</h3>
